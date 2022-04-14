@@ -1,66 +1,32 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (function() {
 var exports = {};
-exports.id = 660;
-exports.ids = [660];
+exports.id = "pages/_document";
+exports.ids = ["pages/_document"];
 exports.modules = {
 
-/***/ 8609:
+/***/ "./pages/_document.js":
+/*!****************************!*\
+  !*** ./pages/_document.js ***!
+  \****************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": function() { return /* binding */ MyDocument; }
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5282);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6859);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9914);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
-
-
-
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
- // we will use getinitialProps which is one of styled-components props to use it with nextjs
-// get initialProps will wait until that method has been resolved before it sends the data
-// off from the server to the browser
-// collect style will go through every single component that needs to be rendered inside
-// our components and it will rip out the CSS that it needs  and render it out to the server
-
-class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1__.default {
-  static getInitialProps({
-    renderPage
-  }) {
-    const sheet = new styled_components__WEBPACK_IMPORTED_MODULE_2__.ServerStyleSheet();
-    const page = renderPage( // eslint-disable-next-line react/jsx-props-no-spreading
-    App => props => sheet.collectStyles( /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(App, _objectSpread({}, props))));
-    const styleTags = sheet.getStyleElement();
-    return _objectSpread(_objectSpread({}, page), {}, {
-      styleTags
-    });
-  }
-
-  render() {
-    return /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_document__WEBPACK_IMPORTED_MODULE_1__.Html, {
-      lang: "en-CA",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("bod", {
-        children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_document__WEBPACK_IMPORTED_MODULE_1__.Main, {}), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_document__WEBPACK_IMPORTED_MODULE_1__.Head, {}), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_document__WEBPACK_IMPORTED_MODULE_1__.NextScript, {})]
-      })
-    });
-  }
-
-} // The reason we do this is because we need access to be able to do custom HTML attributes
-// as well as the ability to stick our CSS inside the head
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": function() { return /* binding */ MyDocument; }\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/document */ \"./node_modules/next/document.js\");\n/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ \"styled-components\");\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);\n\nvar _jsxFileName = \"/Users/gin411/tree-store/front-end/pages/_document.js\";\n\nfunction ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\n\n // we will use getinitialProps which is one of styled-components props to use it with nextjs\n// get initialProps will wait until that method has been resolved before it sends the data\n// off from the server to the browser\n// collect style will go through every single component that needs to be rendered inside\n// our components and it will rip out the CSS that it needs  and render it out to the server\n\nclass MyDocument extends (next_document__WEBPACK_IMPORTED_MODULE_1___default()) {\n  static getInitialProps({\n    renderPage\n  }) {\n    const sheet = new styled_components__WEBPACK_IMPORTED_MODULE_2__.ServerStyleSheet();\n    const page = renderPage( // eslint-disable-next-line react/jsx-props-no-spreading\n    App => props => sheet.collectStyles( /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(App, _objectSpread({}, props), void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 13,\n      columnNumber: 47\n    }, this)));\n    const styleTags = sheet.getStyleElement();\n    return _objectSpread(_objectSpread({}, page), {}, {\n      styleTags\n    });\n  }\n\n  render() {\n    return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.Html, {\n      lang: \"en-CA\",\n      children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"bod\", {\n        children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.Main, {}, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 23,\n          columnNumber: 11\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.Head, {}, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 24,\n          columnNumber: 11\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.NextScript, {}, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 25,\n          columnNumber: 11\n        }, this)]\n      }, void 0, true, {\n        fileName: _jsxFileName,\n        lineNumber: 22,\n        columnNumber: 9\n      }, this)\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 21,\n      columnNumber: 7\n    }, this);\n  }\n\n} // The reason we do this is because we need access to be able to do custom HTML attributes\n// as well as the ability to stick our CSS inside the head//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jb29sLXRyZWVzLWZyb250ZW5kLy4vcGFnZXMvX2RvY3VtZW50LmpzP2U3MGQiXSwibmFtZXMiOlsiTXlEb2N1bWVudCIsIkRvY3VtZW50IiwiZ2V0SW5pdGlhbFByb3BzIiwicmVuZGVyUGFnZSIsInNoZWV0IiwiU2VydmVyU3R5bGVTaGVldCIsInBhZ2UiLCJBcHAiLCJwcm9wcyIsImNvbGxlY3RTdHlsZXMiLCJzdHlsZVRhZ3MiLCJnZXRTdHlsZUVsZW1lbnQiLCJyZW5kZXIiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTtDQUVBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBQ2UsTUFBTUEsVUFBTixTQUF5QkMsc0RBQXpCLENBQWtDO0FBQy9DLFNBQU9DLGVBQVAsQ0FBdUI7QUFBRUM7QUFBRixHQUF2QixFQUF1QztBQUNyQyxVQUFNQyxLQUFLLEdBQUcsSUFBSUMsK0RBQUosRUFBZDtBQUNBLFVBQU1DLElBQUksR0FBR0gsVUFBVSxFQUNyQjtBQUNDSSxPQUFELElBQVVDLEtBQUQsSUFBV0osS0FBSyxDQUFDSyxhQUFOLGVBQW9CLDhEQUFDLEdBQUQsb0JBQVNELEtBQVQ7QUFBQTtBQUFBO0FBQUE7QUFBQSxZQUFwQixDQUZDLENBQXZCO0FBSUEsVUFBTUUsU0FBUyxHQUFHTixLQUFLLENBQUNPLGVBQU4sRUFBbEI7QUFDQSwyQ0FBWUwsSUFBWjtBQUFrQkk7QUFBbEI7QUFDRDs7QUFFREUsUUFBTSxHQUFHO0FBQ1Asd0JBQ0UsOERBQUMsK0NBQUQ7QUFBTSxVQUFJLEVBQUMsT0FBWDtBQUFBLDZCQUNFO0FBQUEsZ0NBQ0UsOERBQUMsK0NBQUQ7QUFBQTtBQUFBO0FBQUE7QUFBQSxnQkFERixlQUVFLDhEQUFDLCtDQUFEO0FBQUE7QUFBQTtBQUFBO0FBQUEsZ0JBRkYsZUFHRSw4REFBQyxxREFBRDtBQUFBO0FBQUE7QUFBQTtBQUFBLGdCQUhGO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQURGO0FBQUE7QUFBQTtBQUFBO0FBQUEsWUFERjtBQVNEOztBQXJCOEMsQyxDQXVCakQ7QUFDQSIsImZpbGUiOiIuL3BhZ2VzL19kb2N1bWVudC5qcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBEb2N1bWVudCwgeyBIdG1sLCBIZWFkLCBOZXh0U2NyaXB0LCBNYWluIH0gZnJvbSAnbmV4dC9kb2N1bWVudCc7XG5pbXBvcnQgeyBTZXJ2ZXJTdHlsZVNoZWV0IH0gZnJvbSAnc3R5bGVkLWNvbXBvbmVudHMnO1xuLy8gd2Ugd2lsbCB1c2UgZ2V0aW5pdGlhbFByb3BzIHdoaWNoIGlzIG9uZSBvZiBzdHlsZWQtY29tcG9uZW50cyBwcm9wcyB0byB1c2UgaXQgd2l0aCBuZXh0anNcbi8vIGdldCBpbml0aWFsUHJvcHMgd2lsbCB3YWl0IHVudGlsIHRoYXQgbWV0aG9kIGhhcyBiZWVuIHJlc29sdmVkIGJlZm9yZSBpdCBzZW5kcyB0aGUgZGF0YVxuLy8gb2ZmIGZyb20gdGhlIHNlcnZlciB0byB0aGUgYnJvd3NlclxuLy8gY29sbGVjdCBzdHlsZSB3aWxsIGdvIHRocm91Z2ggZXZlcnkgc2luZ2xlIGNvbXBvbmVudCB0aGF0IG5lZWRzIHRvIGJlIHJlbmRlcmVkIGluc2lkZVxuLy8gb3VyIGNvbXBvbmVudHMgYW5kIGl0IHdpbGwgcmlwIG91dCB0aGUgQ1NTIHRoYXQgaXQgbmVlZHMgIGFuZCByZW5kZXIgaXQgb3V0IHRvIHRoZSBzZXJ2ZXJcbmV4cG9ydCBkZWZhdWx0IGNsYXNzIE15RG9jdW1lbnQgZXh0ZW5kcyBEb2N1bWVudCB7XG4gIHN0YXRpYyBnZXRJbml0aWFsUHJvcHMoeyByZW5kZXJQYWdlIH0pIHtcbiAgICBjb25zdCBzaGVldCA9IG5ldyBTZXJ2ZXJTdHlsZVNoZWV0KCk7XG4gICAgY29uc3QgcGFnZSA9IHJlbmRlclBhZ2UoXG4gICAgICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgcmVhY3QvanN4LXByb3BzLW5vLXNwcmVhZGluZ1xuICAgICAgKEFwcCkgPT4gKHByb3BzKSA9PiBzaGVldC5jb2xsZWN0U3R5bGVzKDxBcHAgey4uLnByb3BzfSAvPilcbiAgICApO1xuICAgIGNvbnN0IHN0eWxlVGFncyA9IHNoZWV0LmdldFN0eWxlRWxlbWVudCgpO1xuICAgIHJldHVybiB7IC4uLnBhZ2UsIHN0eWxlVGFncyB9O1xuICB9XG5cbiAgcmVuZGVyKCkge1xuICAgIHJldHVybiAoXG4gICAgICA8SHRtbCBsYW5nPVwiZW4tQ0FcIj5cbiAgICAgICAgPGJvZD5cbiAgICAgICAgICA8TWFpbiAvPlxuICAgICAgICAgIDxIZWFkIC8+XG4gICAgICAgICAgPE5leHRTY3JpcHQgLz5cbiAgICAgICAgPC9ib2Q+XG4gICAgICA8L0h0bWw+XG4gICAgKTtcbiAgfVxufVxuLy8gVGhlIHJlYXNvbiB3ZSBkbyB0aGlzIGlzIGJlY2F1c2Ugd2UgbmVlZCBhY2Nlc3MgdG8gYmUgYWJsZSB0byBkbyBjdXN0b20gSFRNTCBhdHRyaWJ1dGVzXG4vLyBhcyB3ZWxsIGFzIHRoZSBhYmlsaXR5IHRvIHN0aWNrIG91ciBDU1MgaW5zaWRlIHRoZSBoZWFkXG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/_document.js\n");
 
 /***/ }),
 
-/***/ 227:
+/***/ "../next-server/lib/constants":
+/*!*********************************************************!*\
+  !*** external "next/dist/next-server/lib/constants.js" ***!
+  \*********************************************************/
 /***/ (function(module) {
 
 "use strict";
@@ -68,7 +34,10 @@ module.exports = require("next/dist/next-server/lib/constants.js");;
 
 /***/ }),
 
-/***/ 3932:
+/***/ "../next-server/lib/document-context":
+/*!****************************************************************!*\
+  !*** external "next/dist/next-server/lib/document-context.js" ***!
+  \****************************************************************/
 /***/ (function(module) {
 
 "use strict";
@@ -76,7 +45,10 @@ module.exports = require("next/dist/next-server/lib/document-context.js");;
 
 /***/ }),
 
-/***/ 816:
+/***/ "../next-server/lib/head-manager-context":
+/*!********************************************************************!*\
+  !*** external "next/dist/next-server/lib/head-manager-context.js" ***!
+  \********************************************************************/
 /***/ (function(module) {
 
 "use strict";
@@ -84,7 +56,10 @@ module.exports = require("next/dist/next-server/lib/head-manager-context.js");;
 
 /***/ }),
 
-/***/ 7579:
+/***/ "../next-server/lib/utils":
+/*!*****************************************************!*\
+  !*** external "next/dist/next-server/lib/utils.js" ***!
+  \*****************************************************/
 /***/ (function(module) {
 
 "use strict";
@@ -92,7 +67,10 @@ module.exports = require("next/dist/next-server/lib/utils.js");;
 
 /***/ }),
 
-/***/ 6171:
+/***/ "../next-server/server/get-page-files":
+/*!*****************************************************************!*\
+  !*** external "next/dist/next-server/server/get-page-files.js" ***!
+  \*****************************************************************/
 /***/ (function(module) {
 
 "use strict";
@@ -100,7 +78,10 @@ module.exports = require("next/dist/next-server/server/get-page-files.js");;
 
 /***/ }),
 
-/***/ 5105:
+/***/ "../next-server/server/utils":
+/*!********************************************************!*\
+  !*** external "next/dist/next-server/server/utils.js" ***!
+  \********************************************************/
 /***/ (function(module) {
 
 "use strict";
@@ -108,7 +89,21 @@ module.exports = require("next/dist/next-server/server/utils.js");;
 
 /***/ }),
 
-/***/ 9297:
+/***/ "object-assign":
+/*!********************************!*\
+  !*** external "object-assign" ***!
+  \********************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = require("object-assign");;
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ (function(module) {
 
 "use strict";
@@ -116,15 +111,21 @@ module.exports = require("react");;
 
 /***/ }),
 
-/***/ 5282:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ (function(module) {
 
 "use strict";
-module.exports = require("react/jsx-runtime");;
+module.exports = require("react/jsx-dev-runtime");;
 
 /***/ }),
 
-/***/ 9914:
+/***/ "styled-components":
+/*!************************************!*\
+  !*** external "styled-components" ***!
+  \************************************/
 /***/ (function(module) {
 
 "use strict";
@@ -132,7 +133,10 @@ module.exports = require("styled-components");;
 
 /***/ }),
 
-/***/ 1168:
+/***/ "styled-jsx/server":
+/*!************************************!*\
+  !*** external "styled-jsx/server" ***!
+  \************************************/
 /***/ (function(module) {
 
 "use strict";
@@ -147,7 +151,7 @@ module.exports = require("styled-jsx/server");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
-var __webpack_exports__ = __webpack_require__.X(0, [859], function() { return __webpack_exec__(8609); });
+var __webpack_exports__ = __webpack_require__.X(0, ["vendors-node_modules_next_dist_client_request-idle-callback_js-node_modules_next_node_modules-847d74","vendors-node_modules_next_document_js"], function() { return __webpack_exec__("./pages/_document.js"); });
 module.exports = __webpack_exports__;
 
 })();
