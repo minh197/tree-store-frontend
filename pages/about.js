@@ -11,8 +11,8 @@ export default function AboutMe() {
         College
       </h2>
       <h3>
-        I am an aspire software developer. In my free time, I love
-        cooking,reading, and hanging out with friends
+        I am an aspire software developer. In my free time, I love cooking,
+        reading, and hanging out with friends
       </h3>
 
       <FootNoteStyles>

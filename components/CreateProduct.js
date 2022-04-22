@@ -41,9 +41,9 @@ export default function CreateProduct() {
   // you need to intercept what the user had typed and put in back to state
   const { inputs, handleChange, clearForm, resetForm } = useForm({
     image: '',
-    name: 'minh nguyen',
-    price: 5000,
-    description: 'Need a lot of sunshine',
+    name: '',
+    price: 0,
+    description: '',
   });
   // this is a function that is bound to this whole mutation
   // and when we run it, it will go off to the back-end and runs it for us
